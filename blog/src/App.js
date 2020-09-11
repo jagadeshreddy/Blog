@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+import Header from './components/header/Header';
+import Login from './components/login/Login';
+import Registration from './components/Registration/Registration';
+import {BrowserRouter as Router, Link, Switch, Route} from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
      <Header></Header>
+     
     </div>
   );
 }
